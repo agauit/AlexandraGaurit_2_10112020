@@ -1,0 +1,172 @@
+@font-face
+{
+	font-family: "Raleway";
+	src: url("../font/raleway.eot");
+	src: url("../font/Raleway-Regular.otf");
+	src: url("../font/Raleway-Regular.svg");
+	src: url("../font/Raleway-Regular.ttf");
+	src: url("../font/Raleway-Regular.woff");
+}
+
+body
+{
+	
+	font-family: "Raleway"; 
+}
+.body
+{
+	margin-left: 35px; 
+	margin-right: 35px;
+}
+a
+{
+	text-decoration: none; 
+	color : black;
+}
+li
+{
+	list-style-type: none;
+	font-size: 12px; 
+}
+.header__hebergement
+{
+	color : #0065FC ;
+}
+
+.header__inscription
+{
+	color : blue;
+	font-weight: bold; 
+}
+h1
+{
+	font-size: 18px; 
+}
+h2
+{
+	font-size: 15px; 
+}
+h3
+{
+	font-size: 13px; 
+}
+h5
+{
+	font-size: 15px; 
+}
+p
+{
+	font-size: 12px; 
+}
+.hebergements
+{
+	background-color: #F2F2F2; 
+	border-radius: 20px; 
+}
+.populaires
+{
+	background-color: #F2F2F2; 
+	border-radius: 20px; 
+}
+img
+{
+	width: 225px; 
+	border : 8px solid white;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+}
+figure
+{
+	background-color: white; 
+	text-align: left;
+	border-radius: 20px; 
+	margin-right: 69%; 
+}
+figcaption
+{
+	padding-left: 20px; 
+}
+footer
+{
+	background-color: #F2F2F2; 
+	
+
+}
+.fa-money-bill-wave , .fa-child , .fa-heart, .fa-dog
+{
+	color : #0065FC;
+	background-color: #DEEBFF; 
+	padding: 12px; 
+	border-radius: 50%; 
+	 
+	
+	}
+.bleu
+{
+	color : #0065FC;
+}
+.gris
+{
+	color : #F2F2F2;
+}
+.shadow
+{
+	box-shadow: 5px 5px 5px #F2F2F2;
+}
+.filtre__economique
+{
+	border-top: 1px solid black; 
+	border-right: 1px solid black; 
+	border-bottom: 1px solid black; 
+	border-bottom-right-radius: 50px; 
+	border-top-right-radius: 50px; 
+	/*margin-right : 85%;*/
+
+	
+	}
+.filtre__familial
+{
+	 border-top: 1px solid black; 
+	border-right: 1px solid black; 
+	border-bottom: 1px solid black; 
+	border-bottom-right-radius: 50px; 
+	border-top-right-radius: 50px; 
+	/*margin-right: 87%; */
+}
+.filtre__romantique
+{
+	border-top: 1px solid black; 
+	border-right: 1px solid black; 
+	border-bottom: 1px solid black; 
+	border-bottom-right-radius: 50px; 
+	border-top-right-radius: 50px; 
+	/*margin-right : 85%;*/
+}
+.filtre__animaux
+{
+	border-top: 1px solid black; 
+	border-right: 1px solid black; 
+	border-bottom: 1px solid black; 
+	border-bottom-right-radius: 50px; 
+	border-top-right-radius: 50px; 
+	/*margin-right : 80%;*/
+}
+.header
+{
+	display: flex;
+	flex-direction: row; 
+}
+.header__nav
+{
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	flex-wrap: wrap;
+}
+	
+.filtre
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
