@@ -439,11 +439,6 @@ hr
 	margin-bottom: 15px; 
 }
 
-
-
-
-
-
 @media screen and (max-width: 767px)
 {
 	body
@@ -1013,92 +1008,92 @@ hr
 		
 
 	}
-@media screen and (min-width: 1050px) and (max-width: 1320px)
-{
-	img
-	{
-		width: 180px;
-		height: 112px;
-	}
-	h2
-	{
-		font-size: 13px;
+		@media screen and (min-width: 1050px) and (max-width: 1320px)
+		{
+			img
+			{
+				width: 180px;
+				height: 112px;
+			}
+			h2
+			{
+				font-size: 13px;
 
-	}
-	p
-	{
-		font-size: 13px;
-	}
-	h4
-	{
-		font-size: 14px; 
-	}
-	li
-	{
-		font-size: 13px; 
-	}
-	.header__hebergement
-	{
-		padding-top: 41px;  
-	}
-	.ul__inscription
-	{
-		padding-left: 0px;
-	}
-	.fa-star
-	{
-		font-size: 13px; 
-	}
-	.hebergement
-	{
-		padding-right: 5px; 
-		padding-left: 5px; 
-		margin-right: 0px; 
-		margin-left: 20px; 
-	}
-	.hebergement__figcaption
-	{
-		padding-left: 5px; 
-		margin: 10px;
-		padding-right: 0px; 
-	}
-	h3
-	{
-		font-size: 14px; 
-	}
-	.populaire
-	{
-		margin-left: 15px; 
-	}
-	.populaire__img
-	{
-		width: 130px; 
-		height: 130px; 
-	}
-	.populaire__figure
-	{
-		margin-left: 20px; 
-		margin-right: 20px; 
-	}
-	.populaire__ecart
-	{
-		padding-bottom: 5px;
-		padding-right: 5px;
-	}
-	.img__large
-	{
-		width: 228px;
-		height: 350px;
-	}
-	.img__min
-	{
-		width: 228px;
-		height: 130px;
-	}
-	.activite__margin
-	{
-		margin-left: 12px; 
-		margin-right: 12px; 
-	}
-}
+			}
+			p
+			{
+				font-size: 13px;
+			}
+			h4
+			{
+				font-size: 14px; 
+			}
+			li
+			{
+				font-size: 13px; 
+			}
+			.header__hebergement
+			{
+				padding-top: 41px;  
+			}
+			.ul__inscription
+			{
+				padding-left: 0px;
+			}
+			.fa-star
+			{
+				font-size: 13px; 
+			}
+			.hebergement
+			{
+				padding-right: 5px; 
+				padding-left: 5px; 
+				margin-right: 0px; 
+				margin-left: 20px; 
+			}
+			.hebergement__figcaption
+			{
+				padding-left: 5px; 
+				margin: 10px;
+				padding-right: 0px; 
+			}
+			h3
+			{
+				font-size: 14px; 
+			}
+			.populaire
+			{
+				margin-left: 15px; 
+			}
+			.populaire__img
+			{
+				width: 130px; 
+				height: 130px; 
+			}
+			.populaire__figure
+			{
+				margin-left: 20px; 
+				margin-right: 20px; 
+			}
+			.populaire__ecart
+			{
+				padding-bottom: 5px;
+				padding-right: 5px;
+			}
+			.img__large
+			{
+				width: 228px;
+				height: 350px;
+			}
+			.img__min
+			{
+				width: 228px;
+				height: 130px;
+			}
+			.activite__margin
+			{
+				margin-left: 12px; 
+				margin-right: 12px; 
+			}
+		}
 
