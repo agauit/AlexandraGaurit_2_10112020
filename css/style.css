@@ -23,7 +23,10 @@ body
 	font-family: "Raleway"; 
 	margin:0;
 }
-
+hr
+{
+	display: none;
+}
 a
 {
 	text-decoration: none; 
@@ -86,6 +89,11 @@ figcaption
  	padding-right: 20px; 
 
 }
+hr
+{
+	color: #F2F2F2;
+	position: relative;
+}
 .header
 {
 	display: flex;
@@ -93,21 +101,24 @@ figcaption
 	align-items: center;
 	justify-content: space-between;
 }
+
 .header__ul
 {
 	display: flex;
 	flex-direction: row;
+	
 }
 .header__nav
 {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 .header__li
 {
 	margin-right: 35px; 
 	padding-left: 12px;
-	padding-right: 12px;  
+	padding-right: 12px; 
 }
 .header__img
 {
@@ -118,8 +129,10 @@ figcaption
 .header__hebergement
 {
 	color: #0065FC;
-	border-top: 2px solid #0065FC;  
+	
+	 border-top: 2px solid #0065FC; 
 	 padding-top : 40px;  
+	 border-bottom: 0; 
 	padding-left: 12px;
 	padding-right: 12px;  
 	margin-top: -42px;
@@ -246,7 +259,7 @@ figcaption
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .hebergement
@@ -359,6 +372,8 @@ figcaption
 {
 	display: flex;
 	flex-direction: row; 
+	align-items: center;
+	justify-content: space-around;
 }
 .activite__min
 {
@@ -379,7 +394,7 @@ figcaption
 {
 	margin-left: 25px; 
 	margin-right: 22px; 
-		box-shadow: 1px 1px 20px 5px #F2F2F2; 
+	box-shadow: 1px 1px 20px 5px #F2F2F2; 
 }
 .img__min
 {
@@ -428,6 +443,7 @@ figcaption
 
 
 
+
 @media screen and (max-width: 767px)
 {
 	body
@@ -438,7 +454,15 @@ figcaption
 	{
 		margin-right: 89px;
 	}
-		
+	hr
+	{
+		display: block;
+		background-color: #F2F2F2;
+	}	
+	.header
+	{
+		justify-content: space-around;
+	}
 	.header__nav , .header__li
     {
         display: flex;
@@ -449,9 +473,10 @@ figcaption
     {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
         margin-top: 125px;
-    	margin-left: -310px;
-    	border-bottom: 1px solid #F2F2F2; 
+    	margin-left: -256px;
     	padding-left: 65px;
 		padding-right: 30px;
 		margin-bottom: 10px;
@@ -459,19 +484,19 @@ figcaption
 	.header__inscription
 	{
 		padding-top: 19px;
-		margin-right: -36px;
-		padding-right: 19px;
+		margin-right: -50px;
+		padding-right: 0px;
 	}
 	.header__hebergement
 	{
 		color: #0065FC;
 		border-bottom: 3px solid #0065FC; 
-		padding-bottom: 20px; 
+		padding-bottom: 15px; 
 		border-top: 0; 
 	}
 	.header__img
 	{
-		margin-top: -49px; 
+		margin-top: -30px; 
 	}
 	.titre
 	{
@@ -516,7 +541,7 @@ figcaption
 	{
 		display: flex;
 		flex-direction: column;
-
+		
 	}
 
 	.filtre__ul
@@ -615,18 +640,32 @@ figcaption
 		margin-left: 0px; 
 		margin-right: 0px; 
 		margin-top: 20px; 
-		border-radius: 0px;  
+		border-radius: 0px; 
+		align-items: center; 	
+	}
+	.populaire__h2
+	{
+		padding-right: 130px; 
 	}
 	.populaire__figure
 	{
 		width: 344px;
-		margin-left: 16px;
-	}
+		margin-left: 15px; 
+		margin-right:15px;
 		
+	}
+	.populaire__titre
+	{
+		padding-right: 10px;
+		padding-left: 10px; 
+		text-align: center;
+		justify-content: space-around;
+	}
 	.activite
 	{
 		display: flex;
 		flex-direction: column;
+
 	}
 	.activite__margin
 	{
@@ -671,7 +710,7 @@ figcaption
 }
 
 
-	@media screen and (min-width: 768px) and (max-width: 991px)
+	@media screen and (min-width: 768px) and (max-width: 1049px)
 	{
 
 
@@ -926,6 +965,8 @@ figcaption
 		{
 			display: flex;
 			flex-direction: column;
+			align-items: center;
+			margin-right: 130px; 
 		}
 		.img__large
 		{
@@ -972,4 +1013,92 @@ figcaption
 		
 
 	}
+@media screen and (min-width: 1050px) and (max-width: 1320px)
+{
+	img
+	{
+		width: 180px;
+		height: 112px;
+	}
+	h2
+	{
+		font-size: 13px;
+
+	}
+	p
+	{
+		font-size: 13px;
+	}
+	h4
+	{
+		font-size: 14px; 
+	}
+	li
+	{
+		font-size: 13px; 
+	}
+	.header__hebergement
+	{
+		padding-top: 41px;  
+	}
+	.ul__inscription
+	{
+		padding-left: 0px;
+	}
+	.fa-star
+	{
+		font-size: 13px; 
+	}
+	.hebergement
+	{
+		padding-right: 5px; 
+		padding-left: 5px; 
+		margin-right: 0px; 
+		margin-left: 20px; 
+	}
+	.hebergement__figcaption
+	{
+		padding-left: 5px; 
+		margin: 10px;
+		padding-right: 0px; 
+	}
+	h3
+	{
+		font-size: 14px; 
+	}
+	.populaire
+	{
+		margin-left: 15px; 
+	}
+	.populaire__img
+	{
+		width: 130px; 
+		height: 130px; 
+	}
+	.populaire__figure
+	{
+		margin-left: 20px; 
+		margin-right: 20px; 
+	}
+	.populaire__ecart
+	{
+		padding-bottom: 5px;
+		padding-right: 5px;
+	}
+	.img__large
+	{
+		width: 228px;
+		height: 350px;
+	}
+	.img__min
+	{
+		width: 228px;
+		height: 130px;
+	}
+	.activite__margin
+	{
+		margin-left: 12px; 
+		margin-right: 12px; 
+	}
+}
 

@@ -22,13 +22,14 @@
 			<nav class="header__nav">
 				<ul class="header__ul">
 
-
-					<li class="header__li header__hebergement"><a href="#ancre__hebergement"><span class=" header__hebergement header__span"> Hébergements </span> </a></li>
+					<li class="header__li "><a href="#ancre__hebergement"><span class=" header__hebergement header__span"> Hébergements </span> </a></li>
 
 
 					<li class="header__li"><a href="#ancre__activite"> <span class="header__activites">Activités</span></a></li>
+					
                 </ul>
-                <ul>
+
+                <ul class="ul__inscription">
 					<li class="header__li header__inscription"><a href="#" class="header__inscription">S'inscrire</a></li>
                 
 
@@ -38,7 +39,7 @@
 
 		</div>
 	</header>
-
+<hr>
 
 		
 
@@ -52,7 +53,7 @@
 		<div class="form">
 			<div><i class="fas fa-map-marker-alt"></i></div>
 			<form class="form" method="post" action="traitement.php">
-				<div><input type="text" name="Adresse" placeholder="Paris,France" class="adresse"></div>
+				<div><input type="text" name="Adresse" placeholder="Marseille,France" class="adresse"></div>
 				<div><input type="submit" name="Recherche" value="Rechercher" class="bouton"></div>
 
 				<div class="submit__mobile"><input type="submit" name="loupe" value="" class="bouton__mobile">
@@ -82,9 +83,9 @@
 							<i class="fas fa-child"></i></a>
 					Familial</li>
 					
-			</ul>
+				</ul>
 
-			<ul class="filtre__ul">
+				<ul class="filtre__ul">
 					
 						<li class="filtre__li filtre__romantique"><a href="#"><i class="fas fa-heart"></i>
 					Romantique</a></li>
@@ -235,7 +236,7 @@
 				<div class="populaire">
 					<div class="populaire__titre">
 						<div>
-							<h3>Les plus populaires</h3>
+							<h3 class="populaire__h2">Les plus populaires</h3>
 						</div>
 						<div><i class="fas fa-chart-line"></i></div>
 					</div>
