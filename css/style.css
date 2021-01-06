@@ -719,6 +719,10 @@ hr
 		text-align: center;
 		justify-content: space-around;
 	}
+	.populaire__div
+	{
+		width: 350px; 
+	}
 	
 	
 	.activite
