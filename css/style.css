@@ -1070,15 +1070,26 @@ hr
 		{
 			height: 300px; 
 		}
+		.titre
+		{
+			padding-top: 10px; 
+		}
 		.activite__div 
 		{
 			width: 500px; 
 			height: 300px; 
+			margin-bottom: 15px; 
+			padding-bottom: 10px; 
 		}
 		 .activite__figure
 		{
 			width: 500px; 
 			height: 250px; 
+		}
+		.activite__h2
+		{
+			padding-left: 35px; 
+
 		}
 		.footer
 		{
