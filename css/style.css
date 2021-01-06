@@ -553,6 +553,7 @@ hr
 		border-bottom: 3px solid #0065FC; 
 		padding-bottom: 15px; 
 		border-top: 0; 
+		margin-left: 30px; 
 	}
 	.header__img
 	{
@@ -595,7 +596,7 @@ hr
 	.adresse
 	{
 		border-right: 2px solid transparent; 
-		width: 245px; 
+		width: 200px; 
 	}
 	.filtre 
 	{
@@ -625,8 +626,7 @@ hr
 	}
 	.filtre__titre
 	{
-		margin-left: -295px; 
-
+		margin-left: -240px;
 	}
 	.filtre__nav
 	{
@@ -654,6 +654,10 @@ hr
 	{
 		margin-left: 0px; 
 	}
+	.hebergement__titre
+	{
+		line-height: 15px; 
+	}
 	.hebergement_populaire
 	{
 		display: flex;
@@ -679,7 +683,7 @@ hr
 	.hebergement__figure
 	{
 		 margin-right: 0;
-		width: 300px;
+		width: 260px;
 	}
 	.hebergement__boite
 	{
@@ -689,15 +693,20 @@ hr
 	box-shadow: ;
 	margin-left: 20px;
 	box-shadow: 1px 1px 20px 5px #F2F2F2; 
+	margin-left: 20px; 
+	width: 260px; 
 	}
-	
+	.hebergement__div
+	{
+		width: 280px; 
+	}
 	.hebergement__plus
 	{
 		margin-left: -25px;
 	}
 	.hebergement__texte
 	{
-		margin-left: 34px;
+		margin-left: 15px;
 		
 	}
 
@@ -725,10 +734,11 @@ hr
 		padding-left: 10px; 
 		text-align: center;
 		justify-content: space-around;
+		flex-wrap: nowrap;
 	}
 	.populaire__div
 	{
-		width: 350px; 
+		width: 300px; 
 	}
 	
 	
@@ -738,9 +748,22 @@ hr
 		flex-direction: column;
 
 	}
+	.activite__div
+	{
+		width: 280px; 
+		margin-left: 15px; 
+	}
+	.activite__figure
+	{
+		width: 280px; 
+	}
+	.activite__h2
+	{
+		margin-left: 15px; 
+	}
 	.img
 	{
-		width: 300px; 
+		width: 280px; 
 		height: 180px; 
 		background-size: 100%;
 		border-bottom-left-radius: 0px; 
@@ -748,8 +771,13 @@ hr
 	}
 	.boite
 	{
-		width: 300px; 
+		width: 280px; 
 		height: 200px;  
+		margin-left: 15px; 
+	}
+	.titre
+	{
+		margin-left: 15px; 
 	}
 		
 	.footer
@@ -766,7 +794,7 @@ hr
 }
 
 
-	@media screen and (min-width: 768px) and (max-width: 1049px)
+	@media screen and (min-width: 600px) and (max-width: 1049px)
 	{
 
 
