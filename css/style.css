@@ -1,4 +1,6 @@
 
+@media screen and (max-width: 2560px)
+{
 
 @font-face {
     font-family: "Raleway";
@@ -92,6 +94,7 @@ hr {
 .header__ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -102,14 +105,14 @@ hr {
 }
 
 .header__li {
-    margin-right: 35px;
-    padding-left: 12px;
-    padding-right: 12px;
+    
+    margin-right: 10%;
+    padding-right: 13%;
 }
 
 .header__img {
-    margin-left: 30px;
-    width: 100px;
+    margin-left: 33%;
+    width: 80%;
     height: 80px;
 }
 
@@ -117,22 +120,21 @@ hr {
     color: #0065FC;
 
     border-top: 2px solid #0065FC;
-    padding-top: 40px;
-    border-bottom: 0;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: -42px;
+    padding-top: 33%;
 
 }
 
 .header__inscription {
     color: #0065FC;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .titre {
-    line-height: 5px;
-    margin-left: 30px;
+ 
+    width: 100%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .fa-map-marker-alt {
@@ -142,13 +144,13 @@ hr {
     margin-left: 30px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    margin-top: 10px;
 }
 
 .form {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    width: 100%;
+
 }
 
 .bouton {
@@ -180,9 +182,9 @@ hr {
 .filtre {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 2%;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 2%;
 
 }
 
@@ -259,6 +261,8 @@ hr {
     padding-right: 23px;
     padding-top: 5px;
     line-height: 7px;
+    width: 70%;
+
 }
 
 .hebergement__titre {
@@ -314,6 +318,8 @@ hr {
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 97%;
+
 
 }
 
@@ -321,10 +327,12 @@ hr {
     background-color: white;
     border-radius: 20px;
     padding-left: 10px;
-    padding-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
     padding-bottom: 10px;
+    padding-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 27%;
 
 }
 
@@ -336,6 +344,8 @@ hr {
     margin-right: 25px;
     margin-left: 12.5px;
     padding-bottom: 27px;
+    width: 100%;
+
 
 }
 
@@ -382,7 +392,7 @@ hr {
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 20px;
-    margin: 18px;
+    margin: 3%;
 }
 
 .populaire__texte {
@@ -409,39 +419,23 @@ hr {
     margin-top: 10px;
 
 }
-
-.boite {
+.activite__figure--large
+{
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    height: 400px;
+    height: 370px;
+}
+.activite__large
+{
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     box-shadow: 1px 1px 20px 5px #F2F2F2;
+    width: 22%;
 }
-
-.img {
-    width: 300px;
-    height: 500px;
-    background-image: url("../img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-position: top center;
-    background-size: 170%;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-
+.img_large
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-
-.img_2 {
-    background-image: url(../img/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-}
-
-.titre {
-
-    padding-bottom: 13px;
-    padding-left: 7px;
-}
-
-
 
 .activite__h3 {
     margin-left: 25px;
@@ -479,20 +473,21 @@ hr {
     padding-bottom: 20px;
     padding-top: 15px;
     margin-top: 20px;
+    margin-left: 2%;
 
 }
 
 .footer__nav {
     display: flex;
     flex-direction: column;
-    margin-right: 225px;
+    margin-right: 15%;
 
 }
 
 .footer__li {
     margin-bottom: 15px;
 }
-
+}
 @media screen and (max-width: 767px) {
     body {
         overflow-x: hidden;
@@ -532,9 +527,9 @@ hr {
     }
 
     .header__inscription {
-        padding-top: 19px;
-        margin-right: -50px;
-        padding-right: 0px;
+      
+        padding-top: 20%;
+        margin-right: -7%;
     }
 
     .header__hebergement {
@@ -546,7 +541,10 @@ hr {
     }
 
     .header__img {
-        margin-top: -30px;
+        margin-top: -30%;;
+        margin-left: 3%;
+        width: 50%;
+        height: 80px;
     }
 
     .titre {
@@ -687,6 +685,7 @@ hr {
 
     .hebergement__div {
         width: 280px;
+        margin-left: 10%;
     }
 
     .hebergement__plus {
@@ -727,6 +726,8 @@ hr {
 
     .populaire__div {
         width: 300px;
+        margin-left: 1%;
+        margin-bottom: 4%;
     }
 
 
@@ -735,7 +736,14 @@ hr {
         flex-direction: column;
 
     }
-
+    .activite__large
+    {
+        width: 260px;
+    }
+    .activite__figure--large
+    {
+        height: 160px;
+    }
     .activite__div {
         width: 260px;
         margin-left: 15px;
@@ -746,20 +754,6 @@ hr {
     }
 
     .activite__h2 {
-        margin-left: 15px;
-    }
-
-    .img {
-        width: 260px;
-        height: 180px;
-        background-size: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-
-    .boite {
-        width: 260px;
-        height: 200px;
         margin-left: 15px;
     }
 
@@ -969,6 +963,7 @@ hr {
     .hebergement__texte {
         padding-bottom: 10px;
         padding-left: 10px;
+        line-height: 18px;
     }
 
     .hebergement__h3 {
@@ -1003,6 +998,11 @@ hr {
     .hebergement__deuxieme_tier {
         display: flex;
         flex-direction: column;
+    }
+    .hebergement__div
+    {
+        width: 500px;
+        margin-left: 35%;
     }
 
     .populaire__figure {
@@ -1041,21 +1041,6 @@ hr {
         margin-bottom: 35px
     }
 
-    .img {
-        width: 500px;
-        background-size: 100%;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-    .boite {
-        height: 300px;
-    }
-
-    .titre {
-        padding-top: 10px;
-    }
-
     .activite__div {
         width: 500px;
         height: 300px;
@@ -1067,7 +1052,15 @@ hr {
         width: 500px;
         height: 250px;
     }
+    .activite__figure--large 
+    {
+        width: 500px;
 
+    }
+    .activite__large
+    {
+        width: 500px;
+    }
     .activite__h2 {
         padding-left: 35px;
 
