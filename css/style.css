@@ -26,6 +26,7 @@ body {
 
     font-family: "Raleway";
     margin: 0;
+    overflow-x: hidden;
 }
 
 hr {
@@ -83,6 +84,12 @@ hr {
     color: #F2F2F2;
     position: relative;
 }
+.titre__footer
+{
+    font-size : 15px;
+    margin-left: 20%;
+}
+
 
 .header {
     display: flex;
@@ -106,7 +113,7 @@ hr {
 
 .header__li {
     
-    margin-right: 10%;
+    margin-right: 19%;
     padding-right: 13%;
 }
 
@@ -118,9 +125,16 @@ hr {
 
 .header__hebergement {
     color: #0065FC;
-
-    border-top: 2px solid #0065FC;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.header__hebergement:hover
+{
+    border-top: 3px solid #0065FC;
     padding-top: 33%;
+    padding-left: 20%;
+    padding-right: 20%;
 
 }
 
@@ -344,7 +358,7 @@ hr {
     margin-right: 25px;
     margin-left: 12.5px;
     padding-bottom: 27px;
-    width: 100%;
+    width: 90%;
 
 
 }
@@ -474,7 +488,7 @@ hr {
     padding-top: 15px;
     margin-top: 20px;
     margin-left: 2%;
-
+ 
 }
 
 .footer__nav {
@@ -538,6 +552,10 @@ hr {
         padding-bottom: 15px;
         border-top: 0;
         margin-left: 30px;
+    }
+    .header__hebergement:hover
+    {
+        display: none;
     }
 
     .header__img {
@@ -642,7 +660,7 @@ hr {
     }
 
     .hebergement__titre {
-        line-height: 15px;
+        line-height: 22px;
     }
 
     .hebergement_populaire {
@@ -705,6 +723,7 @@ hr {
         margin-top: 20px;
         border-radius: 0px;
         align-items: center;
+        width: 100%;
     }
 
     .populaire__h2 {
@@ -768,6 +787,10 @@ hr {
 
     .footer__nav {
         margin-right: 0px;
+    }
+    .titre__footer
+    {
+        margin-left:13%;
     }
 
 
@@ -941,6 +964,11 @@ hr {
         font-size: 20px;
         top: -4px;
     }
+     .header__hebergement:hover
+    {
+        display: none;
+    }
+
 
     .hebergement__titre {
         font-size: 18px;
@@ -1109,10 +1137,12 @@ hr {
 
     .header__hebergement {
         padding-top: 41px;
+
     }
 
     .ul__inscription {
         padding-left: 0px;
+        margin-left: 10%;
     }
 
     .fa-star {
@@ -1131,6 +1161,11 @@ hr {
         width: 61%;
 
     }
+     .header__hebergement:hover
+    {
+        padding-top : 35%;
+    }
+
 
     .hebergement__premier_tier {
         align-items: center;
@@ -1143,7 +1178,6 @@ hr {
     }
 
     .hebergement__figure {
-        width: 185px;
         height: 105px;
     }
 
@@ -1158,7 +1192,7 @@ hr {
     .populaire {
         margin-left: 15px;
         margin-right: 14px;
-
+        width: 98%;
 
     }
 
@@ -1181,6 +1215,11 @@ hr {
 
     .populaire__div {
         width: 300px;
+        margin:0;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        margin-left: 4%;
+
     }
 
     .activite__figure {
