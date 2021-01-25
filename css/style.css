@@ -21,7 +21,10 @@
     src: url("../font/Raleway-Thin/Raleway-Thin.woff2");
 
 }
-
+header
+{
+    text-align: center;
+}
 body {
 
     font-family: "Raleway";
@@ -519,13 +522,16 @@ hr {
     }
 
     .header {
-        justify-content: space-around;
+       
+    margin-right: 0px;
+    justify-content: center;
+
     }
 
     .header__nav,
     .header__li {
         display: flex;
-        flex-direction: row-reverse;
+       
     }
 
     .header__ul {
@@ -533,17 +539,16 @@ hr {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin-top: 125px;
-        margin-left: -256px;
-        padding-left: 65px;
-        padding-right: 30px;
+        margin-top: 45%;
         margin-bottom: 10px;
+        padding-left: 0px;
     }
 
     .header__inscription {
       
         padding-top: 20%;
-        margin-right: -7%;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 
     .header__hebergement {
@@ -551,18 +556,22 @@ hr {
         border-bottom: 3px solid #0065FC;
         padding-bottom: 15px;
         border-top: 0;
-        margin-left: 30px;
+  
     }
     .header__hebergement:hover
     {
-        display: none;
+        border-top : none;
     }
 
     .header__img {
-        margin-top: -30%;;
-        margin-left: 3%;
-        width: 50%;
+        margin-left: 0;
+        margin-top: -30%;
+        width: 70%;
         height: 80px;
+    }
+    .ul__inscription
+    {
+        padding-left: 0px;
     }
 
     .titre {
@@ -799,6 +808,10 @@ hr {
 
 @media screen and (min-width: 768px) and (max-width: 1049px) {
 
+    body
+    {
+        overflow-x: hidden;
+    }
 
     h1 {
         font-size: 22px;
@@ -818,11 +831,14 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 6%;
+
     }
 
     .header__img {
-        width: 165px;
+        width: 80%;
         height: 100px;
+        margin : 0;
 
     }
 
@@ -833,6 +849,10 @@ hr {
         padding-left: 24px;
         padding-right: 5px;
 
+    }
+    .header__hebergement:hover
+    {
+        border-top : none;
     }
 
     .header__inscription {
@@ -860,7 +880,7 @@ hr {
     .fa-map-marker-alt {
         padding: 22px;
         margin-left: 58px;
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 20px;
     }
 
@@ -1051,6 +1071,7 @@ hr {
     }
 
     .populaire {
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 20px;
@@ -1136,8 +1157,13 @@ hr {
     }
 
     .header__hebergement {
-        padding-top: 41px;
+        padding-top: 23%;
 
+    }
+    .header__hebergement:hover
+    {
+        border-top : 2px solid #0065CF;
+        padding-top : 36%;
     }
 
     .ul__inscription {
@@ -1161,11 +1187,6 @@ hr {
         width: 61%;
 
     }
-     .header__hebergement:hover
-    {
-        padding-top : 35%;
-    }
-
 
     .hebergement__premier_tier {
         align-items: center;
